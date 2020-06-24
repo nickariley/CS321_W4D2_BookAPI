@@ -12,8 +12,10 @@
 
   <ItemGroup>
     <Folder Include="ApiModels\" />
-    <Folder Include="Models\" />
-    <Folder Include="Services\" />
-    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CS321_W4D2_BookAPI.Core\CS321_W4D2_BookAPI.Core.csproj" />
+    <ProjectReference Include="..\CS321_W4D2_BookAPI.Infrastructure\CS321_W4D2_BookAPI.Infrastructure.csproj" />
   </ItemGroup>
 </Project>
